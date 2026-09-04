@@ -7,7 +7,7 @@ about:
   head: 4636deb
   archived: false
   latestVersion: v0.9.1
-  collectedAt: 2026-09-04T19:33:16Z
+  collectedAt: 2026-09-04T21:02:24Z
 timeline:
   created: 2020-09-20
   lastCommit: 2025-09-30
@@ -81,6 +81,24 @@ total:
   openIssue: 55
   commit: 281
 ---
+path: /home/runner/.x-repo/github.com/muesli/duf
+collectedAt: 2026-09-04T21:02:25Z
+loc:
+  Go:
+    code: 2323
+    comments: 267
+    blanks: 360
+    files: 19
+  Markdown:
+    code: 0
+    comments: 93
+    blanks: 56
+    files: 1
+total:
+  code: 2323
+  comments: 360
+  blanks: 416
+  files: 20
 ---
 date: "2026-08-24"
 repo:
