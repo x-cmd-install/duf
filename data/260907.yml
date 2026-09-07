@@ -5,7 +5,7 @@ about:
   head: 4636deb
   archived: false
   latestVersion: "v0.9.1"
-  collectedAt: 2026-09-07T05:26:52Z
+  collectedAt: 2026-09-07T19:00:52Z
 timeline:
   created: 2020-09-20
   lastCommit: 2025-09-30
@@ -80,7 +80,7 @@ total:
   commit: 281
 ---
 path: /home/runner/.x-repo/github.com/muesli/duf
-collectedAt: 2026-09-07T05:26:53Z
+collectedAt: 2026-09-07T19:00:53Z
 loc:
   Go:
     code: 2323
@@ -209,7 +209,7 @@ checks:
       - 'Info: Project packages its releases by way of GitHub Actions.: .github/workflows/goreleaser.yml:8'
 ---
 eget:
-  collectedAt: 2026-09-07T05:26:53+00:00
+  collectedAt: 2026-09-07T19:00:54+00:00
   platform:
     darwin/arm64:
       name:  duf_0.9.1_darwin_arm64.tar.gz
