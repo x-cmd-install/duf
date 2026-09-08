@@ -5,7 +5,7 @@ about:
   head: 4636deb
   archived: false
   latestVersion: "v0.9.1"
-  collectedAt: 2026-09-08T02:40:18Z
+  collectedAt: 2026-09-08T05:24:56Z
 timeline:
   created: 2020-09-20
   lastCommit: 2025-09-30
@@ -80,7 +80,7 @@ total:
   commit: 281
 ---
 path: /home/runner/.x-repo/github.com/muesli/duf
-collectedAt: 2026-09-08T02:40:19Z
+collectedAt: 2026-09-08T05:24:57Z
 loc:
   Go:
     code: 2323
@@ -98,30 +98,30 @@ total:
   blanks: 416
   files: 20
 ---
-date: "2026-08-24"
+date: "2026-09-07"
 repo:
   name: github.com/muesli/duf
   commit: 4636deb4a7b707a9f04c602db033f9837e50b3f6
 scorecard:
-  version: v5.5.1-0.20260815060127-d1fab88f5463
-  commit: d1fab88f54636ff366076edfc5c239f97b3c8e66
+  version: v5.5.0
+  commit: c395761df6afe1a69e476bc60a013a94bcbc153f
 score: 3.7
 checks:
   - name: Code-Review
     score: 1
     reason: Found 3/22 approved changesets -- score normalized to 1
     details: null
+  - name: Dangerous-Workflow
+    score: 10
+    reason: no dangerous workflow patterns detected
+    details: null
   - name: Maintained
     score: 0
-    reason: 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
+    reason: 0 commit(s) and 1 issue activity found in the last 90 days -- score normalized to 0
     details: null
   - name: Binary-Artifacts
     score: 10
     reason: no binaries found in the repo
-    details: null
-  - name: Dangerous-Workflow
-    score: 10
-    reason: no dangerous workflow patterns detected
     details: null
   - name: Pinned-Dependencies
     score: 0
@@ -149,8 +149,8 @@ checks:
     details:
       - 'Warn: no topLevel permission defined: .github/workflows/build.yml:1'
       - 'Warn: no topLevel permission defined: .github/workflows/goreleaser.yml:1'
-      - 'Info: topLevel ''pull-requests'' permission set to ''read'': .github/workflows/lint-soft.yml:11'
       - 'Info: topLevel ''contents'' permission set to ''read'': .github/workflows/lint-soft.yml:9'
+      - 'Info: topLevel ''pull-requests'' permission set to ''read'': .github/workflows/lint-soft.yml:11'
       - 'Info: topLevel ''contents'' permission set to ''read'': .github/workflows/lint.yml:9'
       - 'Info: topLevel ''pull-requests'' permission set to ''read'': .github/workflows/lint.yml:11'
       - 'Warn: no topLevel permission defined: .github/workflows/manpage.yml:1'
