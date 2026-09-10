@@ -7,7 +7,7 @@ about:
   latestVersion: "v0.9.1"
   latestRelease: "v0.9.1"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T20:48:47Z
+  collectedAt: 2026-09-10T22:59:43Z
 timeline:
   created: 2020-09-20
   lastCommit: 2025-09-30
@@ -84,7 +84,7 @@ total:
   commit: 281
 ---
 path: /home/runner/.x-repo/github.com/muesli/duf
-collectedAt: 2026-09-10T20:48:47Z
+collectedAt: 2026-09-10T22:59:44Z
 loc:
   Go:
     code: 2323
