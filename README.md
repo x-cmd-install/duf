@@ -44,22 +44,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 15,298 · **Forks**: 466 · **Open issues**: 145 · **Contributors**: 35
+- **Stars**: 15,300 · **Forks**: 466 · **Open issues**: 145 · **Contributors**: 35
 
 ## Totals (cumulative)
 
-- **Releases**: 14 · **Merged PRs**: 131 · **Open PRs**: 27 · **Closed issues**: 90 · **Open issues**: 55 · **Commits**: 281
+- **Releases**: 14 · **Merged PRs**: 131 · **Open PRs**: 27 · **Closed issues**: 91 · **Open issues**: 54 · **Commits**: 281
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-16 | 0 | 0 | 1 | 1 | 0 | 0 |
-| last60d | 2026-07-17 | 0 | 0 | 1 | 1 | 1 | 0 |
-| 90d | 2026-06-17 | 0 | 0 | 2 | 2 | 1 | 0 |
-| last180d | 2026-03-19 | 0 | 0 | 4 | 2 | 2 | 0 |
-| 360d | 2025-09-20 | 0 | 2 | 15 | 2 | 8 | 3 |
-| last720d | 2024-09-25 | 2 | 23 | 20 | 5 | 14 | 50 |
+| 30d | 2026-08-17 | 0 | 0 | 1 | 1 | 0 | 0 |
+| last60d | 2026-07-18 | 0 | 0 | 1 | 2 | 0 | 0 |
+| 90d | 2026-06-18 | 0 | 0 | 2 | 3 | 0 | 0 |
+| last180d | 2026-03-20 | 0 | 0 | 4 | 3 | 1 | 0 |
+| 360d | 2025-09-21 | 0 | 2 | 15 | 3 | 7 | 3 |
+| last720d | 2024-09-26 | 2 | 23 | 20 | 6 | 13 | 50 |
 
 ## Release assets
 
@@ -116,4 +116,4 @@ Install metadata for duf lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260915.yml` · 2026-09-15T05:48:19Z._
+_Snapshot: `data/card/260916.yml` · 2026-09-16T05:48:42Z._
