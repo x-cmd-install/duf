@@ -27,9 +27,9 @@ Overall score: **3.7 / 10**
 
 Lowest-scoring checks:
 
-- **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
 - **Code-Review** (1/10) — Found 3/22 approved changesets -- score normalized to 1
 - **Maintained** (0/10) — 0 commit(s) and 1 issue activity found in the last 90 days -- score normalized to 0
+- **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
 
 ## Source
 
@@ -44,7 +44,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 15,342 · **Forks**: 472 · **Open issues**: 146 · **Contributors**: 35
+- **Stars**: 15,341 · **Forks**: 472 · **Open issues**: 146 · **Contributors**: 35
 
 ## Totals (cumulative)
 
@@ -54,12 +54,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-07 | 0 | 0 | 3 | 0 | 1 | 0 |
-| last60d | 2026-08-08 | 0 | 0 | 4 | 1 | 1 | 0 |
-| 90d | 2026-07-09 | 0 | 0 | 5 | 2 | 1 | 0 |
-| last180d | 2026-04-10 | 0 | 0 | 6 | 3 | 1 | 0 |
-| 360d | 2025-10-12 | 0 | 0 | 18 | 4 | 6 | 0 |
-| last720d | 2024-10-17 | 2 | 23 | 21 | 7 | 13 | 50 |
+| 30d | 2026-09-08 | 0 | 0 | 3 | 0 | 1 | 0 |
+| last60d | 2026-08-09 | 0 | 0 | 4 | 1 | 1 | 0 |
+| 90d | 2026-07-10 | 0 | 0 | 5 | 2 | 1 | 0 |
+| last180d | 2026-04-11 | 0 | 0 | 6 | 3 | 1 | 0 |
+| 360d | 2025-10-13 | 0 | 0 | 17 | 4 | 5 | 0 |
+| last720d | 2024-10-18 | 2 | 23 | 21 | 7 | 13 | 50 |
 
 ## Release assets
 
@@ -116,4 +116,4 @@ Install metadata for duf lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261007.yml` · 2026-10-07T06:39:21Z._
+_Snapshot: `data/card/261008.yml` · 2026-10-08T06:41:11Z._
