@@ -1,64 +1,4 @@
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: duf
-  binname: duf
-  visiblename: duf
-  version: 0.9.1
-  origversion: 0.9.1-1
-  status: newest
-  summary: Disk Usage/Free Utility
-  licenses:
-    - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: duf
-  binname: duf
-  visiblename: duf
-  version: 0.9.1
-  origversion: 0.9.1-1
-  status: newest
-  summary: Disk Usage/Free Utility
-  licenses:
-    - MIT
-- repo: deepin_25
-  subrepo: community
-  srcname: duf
-  binnames:
-    - duf
-  visiblename: duf
-  version: 0.8.1
-  origversion: 0.8.1-2
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - vilmar@debian.org
-  categories:
-    - misc
-- repo: nix_stable_25_05
-  srcname: duf
-  visiblename: duf
-  version: 0.8.1
-  origversion: null
-  status: outdated
-  summary: Disk Usage/Free Utility
-  maintainers:
-    - figsoda@pm.me
-    - penguwin@penguwin.eu
-    - alpha@sigmasquadron.net
-  licenses:
-    - MIT
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: duf
-  binname: duf
-  visiblename: duf
-  version: 0.9.1
-  origversion: 0.9.1-1
-  status: newest
-  summary: Disk Usage/Free Utility
-  licenses:
-    - MIT
-- repo: nix_stable_25_11
+- repo: nix_unstable
   srcname: duf
   visiblename: duf
   version: 0.9.1
@@ -82,6 +22,17 @@
     - me@iodomi.eu
   licenses:
     - MIT
+- repo: stalix
+  srcname: bin/duf
+  binname: bin/duf
+  visiblename: bin/duf
+  version: 0.9.1
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
 - repo: alpine_edge
   subrepo: testing
   srcname: duf
@@ -244,6 +195,20 @@
     - vilmar@debian.org
   categories:
     - misc
+- repo: deepin_25
+  subrepo: community
+  srcname: duf
+  binnames:
+    - duf
+  visiblename: duf
+  version: 0.8.1
+  origversion: 0.8.1-2
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - vilmar@debian.org
+  categories:
+    - misc
 - repo: devuan_unstable
   subrepo: unstable/main
   srcname: duf
@@ -258,6 +223,17 @@
     - vilmar@debian.org
   categories:
     - misc
+- repo: stalix_dev
+  srcname: bin/duf
+  binname: bin/duf
+  visiblename: bin/duf
+  version: 0.9.1
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
 - repo: epel_9
   srcname: duf
   binnames:
@@ -339,22 +315,6 @@
   categories:
     - Unspecified
 - repo: fedora_42
-  subrepo: updates
-  srcname: duf
-  binnames:
-    - duf
-    - duf-debuginfo
-    - duf-debugsource
-  visiblename: duf
-  version: 0.9.0
-  origversion: 0.9.0-1.fc42
-  status: outdated
-  summary: Disk Usage/Free Utility - a better 'df' alternative
-  licenses:
-    - Apache-2.0 AND BSD-3-Clause AND MIT
-  categories:
-    - Unspecified
-- repo: fedora_42
   subrepo: release
   srcname: duf
   binnames:
@@ -368,6 +328,22 @@
   summary: Disk Usage/Free Utility - a better 'df' alternative
   licenses:
     - BSD-3-Clause AND MIT
+  categories:
+    - Unspecified
+- repo: fedora_42
+  subrepo: updates
+  srcname: duf
+  binnames:
+    - duf
+    - duf-debuginfo
+    - duf-debugsource
+  visiblename: duf
+  version: 0.9.0
+  origversion: 0.9.0-1.fc42
+  status: outdated
+  summary: Disk Usage/Free Utility - a better 'df' alternative
+  licenses:
+    - Apache-2.0 AND BSD-3-Clause AND MIT
   categories:
     - Unspecified
 - repo: fedora_43
@@ -557,6 +533,39 @@
     - MIT
   categories:
     - sysutils
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: duf
+  binname: duf
+  visiblename: duf
+  version: 0.9.1
+  origversion: 0.9.1-1
+  status: newest
+  summary: Disk Usage/Free Utility
+  licenses:
+    - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: duf
+  binname: duf
+  visiblename: duf
+  version: 0.9.1
+  origversion: 0.9.1-1
+  status: newest
+  summary: Disk Usage/Free Utility
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: duf
+  binname: duf
+  visiblename: duf
+  version: 0.9.1
+  origversion: 0.9.1-1
+  status: newest
+  summary: Disk Usage/Free Utility
+  licenses:
+    - MIT
 - repo: nix_stable_24_05
   srcname: duf
   visiblename: duf
@@ -581,7 +590,20 @@
     - penguwin@penguwin.eu
   licenses:
     - MIT
-- repo: nix_stable_26_05
+- repo: nix_stable_25_05
+  srcname: duf
+  visiblename: duf
+  version: 0.8.1
+  origversion: null
+  status: outdated
+  summary: Disk Usage/Free Utility
+  maintainers:
+    - figsoda@pm.me
+    - penguwin@penguwin.eu
+    - alpha@sigmasquadron.net
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
   srcname: duf
   visiblename: duf
   version: 0.9.1
@@ -592,7 +614,7 @@
     - alpha@sigmasquadron.net
   licenses:
     - MIT
-- repo: nix_unstable
+- repo: nix_stable_26_05
   srcname: duf
   visiblename: duf
   version: 0.9.1
@@ -663,7 +685,7 @@
   licenses:
     - MIT
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: duf
   binnames:
     - duf
@@ -677,7 +699,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: duf
   binnames:
     - duf
@@ -834,28 +856,6 @@
     - MIT
   categories:
     - debug
-- repo: stalix
-  srcname: bin/duf
-  binname: bin/duf
-  visiblename: bin/duf
-  version: 0.9.1
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
-- repo: stalix_dev
-  srcname: bin/duf
-  binname: bin/duf
-  visiblename: bin/duf
-  version: 0.9.1
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
 - repo: t2
   srcname: duf
   visiblename: duf
@@ -880,20 +880,6 @@
   maintainers:
     - kcubeterm@github
 - repo: ubuntu_22_04
-  subrepo: jammy/universe
-  srcname: duf
-  binnames:
-    - duf
-  visiblename: duf
-  version: 0.6.2
-  origversion: 0.6.2-1build1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - francisco.ruviaro@riseup.net
-  categories:
-    - universe/misc
-- repo: ubuntu_22_04
   subrepo: jammy-updates/universe
   srcname: duf
   binnames:
@@ -904,6 +890,20 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
+    - francisco.ruviaro@riseup.net
+  categories:
+    - universe/misc
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
+  srcname: duf
+  binnames:
+    - duf
+  visiblename: duf
+  version: 0.6.2
+  origversion: 0.6.2-1build1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
     - francisco.ruviaro@riseup.net
   categories:
     - universe/misc
