@@ -1,3 +1,26 @@
+- repo: aur
+  srcname: duf-git
+  binname: duf-git
+  visiblename: duf-git
+  version: r142.af580c4
+  origversion: r142.af580c4-1
+  status: rolling
+  summary: Disk Usage/Free Utility
+  maintainers:
+    - muesli@aur
+  licenses:
+    - MIT
+- repo: artix
+  subrepo: galaxy
+  srcname: duf
+  binname: duf
+  visiblename: duf
+  version: 0.9.1
+  origversion: 0.9.1-1
+  status: newest
+  summary: Disk Usage/Free Utility
+  licenses:
+    - MIT
 - repo: parrot
   subrepo: parrot-updates/main
   srcname: duf
@@ -21,19 +44,8 @@
   summary: Disk Usage/Free Utility
   categories:
     - File tools
-- repo: parabola
-  subrepo: extra
-  srcname: duf
-  binname: duf
-  visiblename: duf
-  version: 0.9.1
-  origversion: 0.9.1-1
-  status: newest
-  summary: Disk Usage/Free Utility
-  licenses:
-    - MIT
-- repo: deepin_25
-  subrepo: community
+- repo: pureos_landing
+  subrepo: landing/main
   srcname: duf
   binnames:
     - duf
@@ -45,21 +57,32 @@
     - team+pkg-go@tracker.debian.org
     - vilmar@debian.org
   categories:
-    - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
+    - utils
+- repo: raspbian_oldstable
+  subrepo: main
   srcname: duf
   binnames:
     - duf
   visiblename: duf
-  version: 0.9.1
-  origversion: 0.9.1-1
-  status: newest
+  version: 0.8.1
+  origversion: 0.8.1-1
+  status: outdated
   maintainers:
     - team+pkg-go@tracker.debian.org
     - vilmar@debian.org
   categories:
     - misc
+- repo: arch
+  subrepo: extra
+  srcname: duf
+  binname: duf
+  visiblename: duf
+  version: 0.9.1
+  origversion: 0.9.1-1
+  status: newest
+  summary: Disk Usage/Free Utility
+  licenses:
+    - MIT
 - repo: alpine_edge
   subrepo: testing
   srcname: duf
@@ -130,40 +153,20 @@
     - fallback-mnt-aosc@repology
   categories:
     - utils
-- repo: arch
-  subrepo: extra
+- repo: raspbian_stable
+  subrepo: main
   srcname: duf
-  binname: duf
+  binnames:
+    - duf
   visiblename: duf
-  version: 0.9.1
-  origversion: 0.9.1-1
-  status: newest
-  summary: Disk Usage/Free Utility
-  licenses:
-    - MIT
-- repo: aur
-  srcname: duf-git
-  binname: duf-git
-  visiblename: duf-git
-  version: r142.af580c4
-  origversion: r142.af580c4-1
-  status: rolling
-  summary: Disk Usage/Free Utility
+  version: 0.8.1
+  origversion: 0.8.1-2
+  status: outdated
   maintainers:
-    - muesli@aur
-  licenses:
-    - MIT
-- repo: artix
-  subrepo: galaxy
-  srcname: duf
-  binname: duf
-  visiblename: duf
-  version: 0.9.1
-  origversion: 0.9.1-1
-  status: newest
-  summary: Disk Usage/Free Utility
-  licenses:
-    - MIT
+    - team+pkg-go@tracker.debian.org
+    - vilmar@debian.org
+  categories:
+    - misc
 - repo: baulk
   srcname: duf
   binname: duf
@@ -223,6 +226,34 @@
     - misc
 - repo: debian_unstable
   subrepo: sid/main
+  srcname: duf
+  binnames:
+    - duf
+  visiblename: duf
+  version: 0.9.1
+  origversion: 0.9.1-1
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - vilmar@debian.org
+  categories:
+    - misc
+- repo: deepin_25
+  subrepo: community
+  srcname: duf
+  binnames:
+    - duf
+  visiblename: duf
+  version: 0.8.1
+  origversion: 0.8.1-2
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - vilmar@debian.org
+  categories:
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
   srcname: duf
   binnames:
     - duf
@@ -331,6 +362,20 @@
     - Apache-2.0 AND BSD-3-Clause AND MIT
   categories:
     - Unspecified
+- repo: raspbian_testing
+  subrepo: main
+  srcname: duf
+  binnames:
+    - duf
+  visiblename: duf
+  version: 0.9.1
+  origversion: 0.9.1-1
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - vilmar@debian.org
+  categories:
+    - misc
 - repo: fedora_42
   subrepo: release
   srcname: duf
@@ -379,20 +424,6 @@
     - Apache-2.0 AND BSD-3-Clause AND MIT
   categories:
     - Unspecified
-- repo: parrot
-  subrepo: parrot/main
-  srcname: duf
-  binnames:
-    - duf
-  visiblename: duf
-  version: 0.8.1
-  origversion: 0.8.1-2
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - vilmar@debian.org
-  categories:
-    - misc
 - repo: fedora_rawhide
   subrepo: development
   srcname: duf
@@ -699,57 +730,26 @@
   summary: Disk Usage/Free Utility - a better 'df' alternative
   maintainers:
     - kwon37xi@gmail.com
-- repo: pureos_landing
-  subrepo: landing/main
+- repo: parabola
+  subrepo: extra
   srcname: duf
-  binnames:
-    - duf
-  visiblename: duf
-  version: 0.8.1
-  origversion: 0.8.1-2
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - vilmar@debian.org
-  categories:
-    - utils
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: duf
-  binnames:
-    - duf
-  visiblename: duf
-  version: 0.8.1
-  origversion: 0.8.1-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - vilmar@debian.org
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: duf
-  binnames:
-    - duf
-  visiblename: duf
-  version: 0.8.1
-  origversion: 0.8.1-2
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - vilmar@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: duf
-  binnames:
-    - duf
+  binname: duf
   visiblename: duf
   version: 0.9.1
   origversion: 0.9.1-1
   status: newest
+  summary: Disk Usage/Free Utility
+  licenses:
+    - MIT
+- repo: parrot
+  subrepo: parrot/main
+  srcname: duf
+  binnames:
+    - duf
+  visiblename: duf
+  version: 0.8.1
+  origversion: 0.8.1-2
+  status: outdated
   maintainers:
     - team+pkg-go@tracker.debian.org
     - vilmar@debian.org
@@ -880,20 +880,6 @@
   maintainers:
     - kcubeterm@github
 - repo: ubuntu_22_04
-  subrepo: jammy/universe
-  srcname: duf
-  binnames:
-    - duf
-  visiblename: duf
-  version: 0.6.2
-  origversion: 0.6.2-1build1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - francisco.ruviaro@riseup.net
-  categories:
-    - universe/misc
-- repo: ubuntu_22_04
   subrepo: jammy-updates/universe
   srcname: duf
   binnames:
@@ -907,18 +893,18 @@
     - francisco.ruviaro@riseup.net
   categories:
     - universe/misc
-- repo: ubuntu_24_04
-  subrepo: noble/universe
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
   srcname: duf
   binnames:
     - duf
   visiblename: duf
-  version: 0.8.1
-  origversion: 0.8.1-1build1
+  version: 0.6.2
+  origversion: 0.6.2-1build1
   status: outdated
   maintainers:
     - team+pkg-go@tracker.debian.org
-    - vilmar@debian.org
+    - francisco.ruviaro@riseup.net
   categories:
     - universe/misc
 - repo: ubuntu_24_04
@@ -932,6 +918,20 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
+    - vilmar@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: duf
+  binnames:
+    - duf
+  visiblename: duf
+  version: 0.8.1
+  origversion: 0.8.1-1build1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
     - vilmar@debian.org
   categories:
     - universe/misc
