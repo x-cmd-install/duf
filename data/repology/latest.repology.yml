@@ -1,17 +1,5 @@
-- repo: aur
-  srcname: duf-git
-  binname: duf-git
-  visiblename: duf-git
-  version: r142.af580c4
-  origversion: r142.af580c4-1
-  status: rolling
-  summary: Disk Usage/Free Utility
-  maintainers:
-    - muesli@aur
-  licenses:
-    - MIT
-- repo: artix
-  subrepo: galaxy
+- repo: manjaro_unstable
+  subrepo: extra
   srcname: duf
   binname: duf
   visiblename: duf
@@ -21,8 +9,8 @@
   summary: Disk Usage/Free Utility
   licenses:
     - MIT
-- repo: parrot
-  subrepo: parrot-updates/main
+- repo: deepin_25
+  subrepo: community
   srcname: duf
   binnames:
     - duf
@@ -35,44 +23,31 @@
     - vilmar@debian.org
   categories:
     - misc
-- repo: pclinuxos
+- repo: nix_stable_25_05
   srcname: duf
   visiblename: duf
-  version: 0.6.0
-  origversion: 0.6.0-1pclos2021
+  version: 0.8.1
+  origversion: null
   status: outdated
   summary: Disk Usage/Free Utility
-  categories:
-    - File tools
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: duf
-  binnames:
-    - duf
-  visiblename: duf
-  version: 0.8.1
-  origversion: 0.8.1-2
-  status: outdated
   maintainers:
-    - team+pkg-go@tracker.debian.org
-    - vilmar@debian.org
-  categories:
-    - utils
-- repo: raspbian_oldstable
-  subrepo: main
+    - figsoda@pm.me
+    - penguwin@penguwin.eu
+    - alpha@sigmasquadron.net
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
   srcname: duf
-  binnames:
-    - duf
   visiblename: duf
-  version: 0.8.1
-  origversion: 0.8.1-1
-  status: outdated
+  version: 0.9.1
+  origversion: null
+  status: newest
+  summary: Disk Usage/Free Utility
   maintainers:
-    - team+pkg-go@tracker.debian.org
-    - vilmar@debian.org
-  categories:
-    - misc
-- repo: arch
+    - alpha@sigmasquadron.net
+  licenses:
+    - MIT
+- repo: manjaro_stable
   subrepo: extra
   srcname: duf
   binname: duf
@@ -153,20 +128,40 @@
     - fallback-mnt-aosc@repology
   categories:
     - utils
-- repo: raspbian_stable
-  subrepo: main
+- repo: arch
+  subrepo: extra
   srcname: duf
-  binnames:
-    - duf
+  binname: duf
   visiblename: duf
-  version: 0.8.1
-  origversion: 0.8.1-2
-  status: outdated
+  version: 0.9.1
+  origversion: 0.9.1-1
+  status: newest
+  summary: Disk Usage/Free Utility
+  licenses:
+    - MIT
+- repo: aur
+  srcname: duf-git
+  binname: duf-git
+  visiblename: duf-git
+  version: r142.af580c4
+  origversion: r142.af580c4-1
+  status: rolling
+  summary: Disk Usage/Free Utility
   maintainers:
-    - team+pkg-go@tracker.debian.org
-    - vilmar@debian.org
-  categories:
-    - misc
+    - muesli@aur
+  licenses:
+    - MIT
+- repo: artix
+  subrepo: galaxy
+  srcname: duf
+  binname: duf
+  visiblename: duf
+  version: 0.9.1
+  origversion: 0.9.1-1
+  status: newest
+  summary: Disk Usage/Free Utility
+  licenses:
+    - MIT
 - repo: baulk
   srcname: duf
   binname: duf
@@ -210,6 +205,18 @@
     - vilmar@debian.org
   categories:
     - misc
+- repo: nix_stable_24_05
+  srcname: duf
+  visiblename: duf
+  version: 0.8.1
+  origversion: null
+  status: outdated
+  summary: Disk Usage/Free Utility
+  maintainers:
+    - figsoda@pm.me
+    - penguwin@penguwin.eu
+  licenses:
+    - MIT
 - repo: debian_14
   subrepo: forky/main
   srcname: duf
@@ -238,20 +245,17 @@
     - vilmar@debian.org
   categories:
     - misc
-- repo: deepin_25
-  subrepo: community
+- repo: manjaro_testing
+  subrepo: extra
   srcname: duf
-  binnames:
-    - duf
+  binname: duf
   visiblename: duf
-  version: 0.8.1
-  origversion: 0.8.1-2
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - vilmar@debian.org
-  categories:
-    - misc
+  version: 0.9.1
+  origversion: 0.9.1-1
+  status: newest
+  summary: Disk Usage/Free Utility
+  licenses:
+    - MIT
 - repo: devuan_unstable
   subrepo: unstable/main
   srcname: duf
@@ -347,36 +351,6 @@
   categories:
     - Unspecified
 - repo: fedora_42
-  subrepo: updates
-  srcname: duf
-  binnames:
-    - duf
-    - duf-debuginfo
-    - duf-debugsource
-  visiblename: duf
-  version: 0.9.0
-  origversion: 0.9.0-1.fc42
-  status: outdated
-  summary: Disk Usage/Free Utility - a better 'df' alternative
-  licenses:
-    - Apache-2.0 AND BSD-3-Clause AND MIT
-  categories:
-    - Unspecified
-- repo: raspbian_testing
-  subrepo: main
-  srcname: duf
-  binnames:
-    - duf
-  visiblename: duf
-  version: 0.9.1
-  origversion: 0.9.1-1
-  status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - vilmar@debian.org
-  categories:
-    - misc
-- repo: fedora_42
   subrepo: release
   srcname: duf
   binnames:
@@ -390,6 +364,22 @@
   summary: Disk Usage/Free Utility - a better 'df' alternative
   licenses:
     - BSD-3-Clause AND MIT
+  categories:
+    - Unspecified
+- repo: fedora_42
+  subrepo: updates
+  srcname: duf
+  binnames:
+    - duf
+    - duf-debuginfo
+    - duf-debugsource
+  visiblename: duf
+  version: 0.9.0
+  origversion: 0.9.0-1.fc42
+  status: outdated
+  summary: Disk Usage/Free Utility - a better 'df' alternative
+  licenses:
+    - Apache-2.0 AND BSD-3-Clause AND MIT
   categories:
     - Unspecified
 - repo: fedora_43
@@ -424,6 +414,18 @@
     - Apache-2.0 AND BSD-3-Clause AND MIT
   categories:
     - Unspecified
+- repo: nix_stable_24_11
+  srcname: duf
+  visiblename: duf
+  version: 0.8.1
+  origversion: null
+  status: outdated
+  summary: Disk Usage/Free Utility
+  maintainers:
+    - figsoda@pm.me
+    - penguwin@penguwin.eu
+  licenses:
+    - MIT
 - repo: fedora_rawhide
   subrepo: development
   srcname: duf
@@ -579,87 +581,6 @@
     - MIT
   categories:
     - sysutils
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: duf
-  binname: duf
-  visiblename: duf
-  version: 0.9.1
-  origversion: 0.9.1-1
-  status: newest
-  summary: Disk Usage/Free Utility
-  licenses:
-    - MIT
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: duf
-  binname: duf
-  visiblename: duf
-  version: 0.9.1
-  origversion: 0.9.1-1
-  status: newest
-  summary: Disk Usage/Free Utility
-  licenses:
-    - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: duf
-  binname: duf
-  visiblename: duf
-  version: 0.9.1
-  origversion: 0.9.1-1
-  status: newest
-  summary: Disk Usage/Free Utility
-  licenses:
-    - MIT
-- repo: nix_stable_24_05
-  srcname: duf
-  visiblename: duf
-  version: 0.8.1
-  origversion: null
-  status: outdated
-  summary: Disk Usage/Free Utility
-  maintainers:
-    - figsoda@pm.me
-    - penguwin@penguwin.eu
-  licenses:
-    - MIT
-- repo: nix_stable_24_11
-  srcname: duf
-  visiblename: duf
-  version: 0.8.1
-  origversion: null
-  status: outdated
-  summary: Disk Usage/Free Utility
-  maintainers:
-    - figsoda@pm.me
-    - penguwin@penguwin.eu
-  licenses:
-    - MIT
-- repo: nix_stable_25_05
-  srcname: duf
-  visiblename: duf
-  version: 0.8.1
-  origversion: null
-  status: outdated
-  summary: Disk Usage/Free Utility
-  maintainers:
-    - figsoda@pm.me
-    - penguwin@penguwin.eu
-    - alpha@sigmasquadron.net
-  licenses:
-    - MIT
-- repo: nix_stable_25_11
-  srcname: duf
-  visiblename: duf
-  version: 0.9.1
-  origversion: null
-  status: newest
-  summary: Disk Usage/Free Utility
-  maintainers:
-    - alpha@sigmasquadron.net
-  licenses:
-    - MIT
 - repo: nix_stable_26_05
   srcname: duf
   visiblename: duf
@@ -750,6 +671,85 @@
   version: 0.8.1
   origversion: 0.8.1-2
   status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - vilmar@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: duf
+  binnames:
+    - duf
+  visiblename: duf
+  version: 0.8.1
+  origversion: 0.8.1-2
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - vilmar@debian.org
+  categories:
+    - misc
+- repo: pclinuxos
+  srcname: duf
+  visiblename: duf
+  version: 0.6.0
+  origversion: 0.6.0-1pclos2021
+  status: outdated
+  summary: Disk Usage/Free Utility
+  categories:
+    - File tools
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: duf
+  binnames:
+    - duf
+  visiblename: duf
+  version: 0.8.1
+  origversion: 0.8.1-2
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - vilmar@debian.org
+  categories:
+    - utils
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: duf
+  binnames:
+    - duf
+  visiblename: duf
+  version: 0.8.1
+  origversion: 0.8.1-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - vilmar@debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: duf
+  binnames:
+    - duf
+  visiblename: duf
+  version: 0.8.1
+  origversion: 0.8.1-2
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - vilmar@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: duf
+  binnames:
+    - duf
+  visiblename: duf
+  version: 0.9.1
+  origversion: 0.9.1-1
+  status: newest
   maintainers:
     - team+pkg-go@tracker.debian.org
     - vilmar@debian.org
