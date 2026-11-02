@@ -1,74 +1,10 @@
-- repo: nix_stable_24_05
-  srcname: duf
-  visiblename: duf
-  version: 0.8.1
-  origversion: null
-  status: outdated
-  summary: Disk Usage/Free Utility
-  maintainers:
-    - figsoda@pm.me
-    - penguwin@penguwin.eu
-  licenses:
-    - MIT
-- repo: nix_stable_24_11
-  srcname: duf
-  visiblename: duf
-  version: 0.8.1
-  origversion: null
-  status: outdated
-  summary: Disk Usage/Free Utility
-  maintainers:
-    - figsoda@pm.me
-    - penguwin@penguwin.eu
-  licenses:
-    - MIT
-- repo: chocolatey
-  binname: duf
-  visiblename: duf
-  version: 0.9.1
-  origversion: null
-  status: newest
-  summary: duf – Disk Usage Free Utility
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: duf
-  binname: duf
-  visiblename: duf
-  version: 0.9.1
-  origversion: 0.9.1-1
-  status: newest
-  summary: Disk Usage/Free Utility
-  licenses:
-    - MIT
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: duf
-  binname: duf
-  visiblename: duf
-  version: 0.9.1
-  origversion: 0.9.1-1
-  status: newest
-  summary: Disk Usage/Free Utility
-  licenses:
-    - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: duf
-  binname: duf
-  visiblename: duf
-  version: 0.9.1
-  origversion: 0.9.1-1
-  status: newest
-  summary: Disk Usage/Free Utility
-  licenses:
-    - MIT
 - repo: alpine_edge
   subrepo: testing
   srcname: duf
   binname: duf
   visiblename: duf
   version: 0.9.1
-  origversion: 0.9.1-r9
+  origversion: 0.9.1-r10
   status: newest
   summary: Disk Usage/Free Utility
   maintainers:
@@ -81,7 +17,7 @@
   binname: duf-doc
   visiblename: duf-doc
   version: 0.9.1
-  origversion: 0.9.1-r9
+  origversion: 0.9.1-r10
   status: newest
   summary: Disk Usage/Free Utility (documentation)
   maintainers:
@@ -174,6 +110,13 @@
   origversion: null
   status: newest
   summary: Disk Usage/Free Utility (Linux, BSD, macOS & Windows)
+- repo: chocolatey
+  binname: duf
+  visiblename: duf
+  version: 0.9.1
+  origversion: null
+  status: newest
+  summary: duf – Disk Usage Free Utility
 - repo: debian_12
   subrepo: bookworm/main
   srcname: duf
@@ -492,6 +435,20 @@
     - vilmar@debian.org
   categories:
     - misc
+- repo: opensuse_tumbleweed
+  subrepo: src-oss
+  srcname: duf
+  binnames:
+    - duf
+  visiblename: duf
+  version: 0.9.1
+  origversion: 0.9.1-1.7
+  status: newest
+  summary: Disk Usage/Free Utility
+  licenses:
+    - MIT
+  categories:
+    - System/Management
 - repo: liguros_stable
   srcname: sys-fs/duf
   visiblename: sys-fs/duf
@@ -509,6 +466,20 @@
     - Apache-2.0
   categories:
     - sys-fs
+- repo: solus
+  srcname: duf
+  binname: duf
+  visiblename: duf
+  version: 0.9.1
+  origversion: null
+  status: newest
+  summary: duf Disk Usage/Free Utility is a better df alternative.
+  maintainers:
+    - harveydevel@gmail.com
+  licenses:
+    - MIT
+  categories:
+    - system.utils
 - repo: liguros_develop
   srcname: sys-fs/duf
   visiblename: sys-fs/duf
@@ -557,6 +528,63 @@
     - MIT
   categories:
     - sysutils
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: duf
+  binname: duf
+  visiblename: duf
+  version: 0.8.1
+  origversion: 0.8.1-2
+  status: outdated
+  summary: Disk Usage/Free Utility
+  licenses:
+    - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: duf
+  binname: duf
+  visiblename: duf
+  version: 0.8.1
+  origversion: 0.8.1-2
+  status: outdated
+  summary: Disk Usage/Free Utility
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: duf
+  binname: duf
+  visiblename: duf
+  version: 0.9.1
+  origversion: 0.9.1-1
+  status: newest
+  summary: Disk Usage/Free Utility
+  licenses:
+    - MIT
+- repo: nix_stable_24_05
+  srcname: duf
+  visiblename: duf
+  version: 0.8.1
+  origversion: null
+  status: outdated
+  summary: Disk Usage/Free Utility
+  maintainers:
+    - figsoda@pm.me
+    - penguwin@penguwin.eu
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
+  srcname: duf
+  visiblename: duf
+  version: 0.8.1
+  origversion: null
+  status: outdated
+  summary: Disk Usage/Free Utility
+  maintainers:
+    - figsoda@pm.me
+    - penguwin@penguwin.eu
+  licenses:
+    - MIT
 - repo: nix_stable_25_05
   srcname: duf
   visiblename: duf
@@ -622,20 +650,6 @@
   version: 0.8.1
   origversion: 0.8.1+git64.24c3369-bp156.1.13
   status: outdated
-  summary: Disk Usage/Free Utility
-  licenses:
-    - MIT
-  categories:
-    - System/Management
-- repo: opensuse_tumbleweed
-  subrepo: src-oss
-  srcname: duf
-  binnames:
-    - duf
-  visiblename: duf
-  version: 0.9.1
-  origversion: 0.9.1-1.7
-  status: newest
   summary: Disk Usage/Free Utility
   licenses:
     - MIT
@@ -808,20 +822,6 @@
     - system
 - repo: solus
   srcname: duf
-  binname: duf
-  visiblename: duf
-  version: 0.9.1
-  origversion: null
-  status: newest
-  summary: duf Disk Usage/Free Utility is a better df alternative.
-  maintainers:
-    - harveydevel@gmail.com
-  licenses:
-    - MIT
-  categories:
-    - system.utils
-- repo: solus
-  srcname: duf
   binname: duf-dbginfo
   visiblename: duf-dbginfo
   version: 0.9.1
@@ -908,20 +908,6 @@
   categories:
     - universe/misc
 - repo: ubuntu_24_04
-  subrepo: noble-updates/universe
-  srcname: duf
-  binnames:
-    - duf
-  visiblename: duf
-  version: 0.8.1
-  origversion: 0.8.1-1ubuntu0.24.04.3
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - vilmar@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_24_04
   subrepo: noble/universe
   srcname: duf
   binnames:
@@ -932,6 +918,20 @@
   status: outdated
   maintainers:
     - team+pkg-go@tracker.debian.org
+    - vilmar@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_24_04
+  subrepo: noble-updates/universe
+  srcname: duf
+  binnames:
+    - duf
+  visiblename: duf
+  version: 0.8.1
+  origversion: 0.8.1-1ubuntu0.24.04.3
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
     - vilmar@debian.org
   categories:
     - universe/misc
