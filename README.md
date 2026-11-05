@@ -27,8 +27,8 @@ Overall score: **3.7 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (1/10) — Found 3/22 approved changesets -- score normalized to 1
 - **Maintained** (0/10) — 0 commit(s) and 1 issue activity found in the last 90 days -- score normalized to 0
+- **Code-Review** (1/10) — Found 3/22 approved changesets -- score normalized to 1
 - **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
 
 ## Source
@@ -44,7 +44,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 15,373 · **Forks**: 473 · **Open issues**: 147 · **Contributors**: 35
+- **Stars**: 15,375 · **Forks**: 473 · **Open issues**: 147 · **Contributors**: 35
 
 ## Totals (cumulative)
 
@@ -54,12 +54,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 0 | 0 | 0 | 0 | 1 | 0 |
-| last60d | 2026-09-05 | 0 | 0 | 3 | 0 | 2 | 0 |
-| 90d | 2026-08-06 | 0 | 0 | 4 | 1 | 2 | 0 |
-| last180d | 2026-05-08 | 0 | 0 | 5 | 3 | 2 | 0 |
-| 360d | 2025-11-09 | 0 | 0 | 17 | 4 | 6 | 0 |
-| last720d | 2024-11-14 | 2 | 23 | 21 | 7 | 14 | 50 |
+| 30d | 2026-10-06 | 0 | 0 | 0 | 0 | 1 | 0 |
+| last60d | 2026-09-06 | 0 | 0 | 3 | 0 | 2 | 0 |
+| 90d | 2026-08-07 | 0 | 0 | 4 | 1 | 2 | 0 |
+| last180d | 2026-05-09 | 0 | 0 | 5 | 3 | 2 | 0 |
+| 360d | 2025-11-10 | 0 | 0 | 16 | 4 | 6 | 0 |
+| last720d | 2024-11-15 | 2 | 23 | 21 | 7 | 14 | 50 |
 
 ## Release assets
 
@@ -109,7 +109,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **77** distros on [repology.org](https://repology.org/project/duf). **43** are ✅ on the latest upstream release, **29** are ⚠️ on an older version.
+Reported by **78** distros on [repology.org](https://repology.org/project/duf). **44** are ✅ on the latest upstream release, **29** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -135,4 +135,4 @@ Install metadata for duf lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261104.yml` · 2026-11-04T07:01:11Z._
+_Snapshot: `data/card/261105.yml` · 2026-11-05T07:21:44Z._
