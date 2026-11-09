@@ -1,5 +1,5 @@
-- repo: raspbian_stable
-  subrepo: main
+- repo: parrot
+  subrepo: parrot-updates/main
   srcname: duf
   binnames:
     - duf
@@ -12,6 +12,15 @@
     - vilmar@debian.org
   categories:
     - misc
+- repo: pclinuxos
+  srcname: duf
+  visiblename: duf
+  version: 0.6.0
+  origversion: 0.6.0-1pclos2021
+  status: outdated
+  summary: Disk Usage/Free Utility
+  categories:
+    - File tools
 - repo: raspbian_testing
   subrepo: main
   srcname: duf
@@ -26,6 +35,22 @@
     - vilmar@debian.org
   categories:
     - misc
+- repo: alt_p11
+  srcname: duf
+  binnames:
+    - duf
+    - duf-debuginfo
+  visiblename: duf
+  version: 0.8.1
+  origversion: 0.8.1-alt1
+  status: outdated
+  summary: Disk Usage/Free Utility - a better 'df' alternative
+  maintainers:
+    - lav@altlinux.org
+  licenses:
+    - MIT and BSD
+  categories:
+    - File tools
 - repo: pureos_landing
   subrepo: landing/main
   srcname: duf
@@ -40,6 +65,74 @@
     - vilmar@debian.org
   categories:
     - utils
+- repo: raspbian_stable
+  subrepo: main
+  srcname: duf
+  binnames:
+    - duf
+  visiblename: duf
+  version: 0.8.1
+  origversion: 0.8.1-2
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - vilmar@debian.org
+  categories:
+    - misc
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: duf
+  binnames:
+    - duf
+  visiblename: duf
+  version: 0.8.1
+  origversion: 0.8.1-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - vilmar@debian.org
+  categories:
+    - misc
+- repo: altsisyphus
+  srcname: duf
+  binnames:
+    - duf
+    - duf-debuginfo
+  visiblename: duf
+  version: 0.9.1
+  origversion: 0.9.1-alt1
+  status: newest
+  summary: Disk Usage/Free Utility - a better 'df' alternative
+  maintainers:
+    - lav@altlinux.org
+  licenses:
+    - MIT and BSD
+  categories:
+    - File tools
+- repo: aosc
+  srcname: app-utils/duf
+  binname: duf
+  visiblename: duf
+  version: 0.9.1
+  origversion: 0.9.1-5
+  status: newest
+  summary: Utility to visualize disk usage and available space
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - utils
+- repo: aur
+  srcname: duf-git
+  binname: duf-git
+  visiblename: duf-git
+  version: r142.af580c4
+  origversion: r142.af580c4-1
+  status: rolling
+  summary: Disk Usage/Free Utility
+  maintainers:
+    - muesli@aur
+  licenses:
+    - MIT
 - repo: aerynos
   srcname: duf
   visiblename: duf
@@ -75,50 +168,6 @@
     - me@iodomi.eu
   licenses:
     - MIT
-- repo: alt_p11
-  srcname: duf
-  binnames:
-    - duf
-    - duf-debuginfo
-  visiblename: duf
-  version: 0.8.1
-  origversion: 0.8.1-alt1
-  status: outdated
-  summary: Disk Usage/Free Utility - a better 'df' alternative
-  maintainers:
-    - lav@altlinux.org
-  licenses:
-    - MIT and BSD
-  categories:
-    - File tools
-- repo: altsisyphus
-  srcname: duf
-  binnames:
-    - duf
-    - duf-debuginfo
-  visiblename: duf
-  version: 0.9.1
-  origversion: 0.9.1-alt1
-  status: newest
-  summary: Disk Usage/Free Utility - a better 'df' alternative
-  maintainers:
-    - lav@altlinux.org
-  licenses:
-    - MIT and BSD
-  categories:
-    - File tools
-- repo: aosc
-  srcname: app-utils/duf
-  binname: duf
-  visiblename: duf
-  version: 0.9.1
-  origversion: 0.9.1-5
-  status: newest
-  summary: Utility to visualize disk usage and available space
-  maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - utils
 - repo: arch
   subrepo: extra
   srcname: duf
@@ -128,18 +177,6 @@
   origversion: 0.9.1-1
   status: newest
   summary: Disk Usage/Free Utility
-  licenses:
-    - MIT
-- repo: aur
-  srcname: duf-git
-  binname: duf-git
-  visiblename: duf-git
-  version: r142.af580c4
-  origversion: r142.af580c4-1
-  status: rolling
-  summary: Disk Usage/Free Utility
-  maintainers:
-    - muesli@aur
   licenses:
     - MIT
 - repo: artix
@@ -475,13 +512,6 @@
   origversion: null
   status: newest
   summary: Disk Usage/Free Utility - a better 'df' alternative
-- repo: homebrew
-  srcname: duf
-  visiblename: duf
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Disk Usage/Free Utility - a better 'df' alternative
 - repo: kali_rolling
   subrepo: main
   srcname: duf
@@ -714,7 +744,7 @@
   categories:
     - System/Management
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: duf
   binnames:
     - duf
@@ -852,20 +882,6 @@
   maintainers:
     - kcubeterm@github
 - repo: ubuntu_22_04
-  subrepo: jammy-updates/universe
-  srcname: duf
-  binnames:
-    - duf
-  visiblename: duf
-  version: 0.6.2
-  origversion: 0.6.2-1ubuntu0.1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - francisco.ruviaro@riseup.net
-  categories:
-    - universe/misc
-- repo: ubuntu_22_04
   subrepo: jammy/universe
   srcname: duf
   binnames:
@@ -876,6 +892,20 @@
   status: outdated
   maintainers:
     - team+pkg-go@tracker.debian.org
+    - francisco.ruviaro@riseup.net
+  categories:
+    - universe/misc
+- repo: ubuntu_22_04
+  subrepo: jammy-updates/universe
+  srcname: duf
+  binnames:
+    - duf
+  visiblename: duf
+  version: 0.6.2
+  origversion: 0.6.2-1ubuntu0.1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
     - francisco.ruviaro@riseup.net
   categories:
     - universe/misc
@@ -999,40 +1029,10 @@
   summary: disk utility
   licenses:
     - MIT License
-- repo: parrot
-  subrepo: parrot/main
-  srcname: duf
-  binnames:
-    - duf
-  visiblename: duf
-  version: 0.8.1
-  origversion: 0.8.1-2
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - vilmar@debian.org
-  categories:
-    - misc
-- repo: pclinuxos
+- repo: homebrew
   srcname: duf
   visiblename: duf
-  version: 0.6.0
-  origversion: 0.6.0-1pclos2021
-  status: outdated
-  summary: Disk Usage/Free Utility
-  categories:
-    - File tools
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: duf
-  binnames:
-    - duf
-  visiblename: duf
-  version: 0.8.1
-  origversion: 0.8.1-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - vilmar@debian.org
-  categories:
-    - misc
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Disk Usage/Free Utility - a better 'df' alternative
