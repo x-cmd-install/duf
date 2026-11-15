@@ -1,27 +1,22 @@
-- repo: stalix_dev
-  srcname: bin/duf
-  binname: bin/duf
-  visiblename: bin/duf
-  version: 0.9.1
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
-- repo: t2
+- repo: artix
+  subrepo: galaxy
   srcname: duf
+  binname: duf
+  visiblename: duf
+  version: 0.9.1
+  origversion: 0.9.1-1
+  status: newest
+  summary: Disk Usage/Free Utility
+  licenses:
+    - MIT
+- repo: baulk
+  srcname: duf
+  binname: duf
   visiblename: duf
   version: 0.9.1
   origversion: null
   status: newest
-  summary: Disk usage utility
-  maintainers:
-    - notag@t2sde.org
-  licenses:
-    - MIT
-  categories:
-    - extra/tool
+  summary: Disk Usage/Free Utility (Linux, BSD, macOS & Windows)
 - repo: termux
   srcname: duf
   binname: duf
@@ -32,34 +27,6 @@
   summary: Disk usage/free utility
   maintainers:
     - kcubeterm@github
-- repo: solus
-  srcname: duf
-  binname: duf
-  visiblename: duf
-  version: 0.9.1
-  origversion: null
-  status: newest
-  summary: duf Disk Usage/Free Utility is a better df alternative.
-  maintainers:
-    - harveydevel@gmail.com
-  licenses:
-    - MIT
-  categories:
-    - system.utils
-- repo: debian_13
-  subrepo: trixie/main
-  srcname: duf
-  binnames:
-    - duf
-  visiblename: duf
-  version: 0.8.1
-  origversion: 0.8.1-2
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - vilmar@debian.org
-  categories:
-    - misc
 - repo: nix_stable_25_05
   srcname: duf
   visiblename: duf
@@ -73,20 +40,6 @@
     - alpha@sigmasquadron.net
   licenses:
     - MIT
-- repo: debian_14
-  subrepo: forky/main
-  srcname: duf
-  binnames:
-    - duf
-  visiblename: duf
-  version: 0.9.1
-  origversion: 0.9.1-1
-  status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - vilmar@debian.org
-  categories:
-    - misc
 - repo: nix_stable_25_11
   srcname: duf
   visiblename: duf
@@ -96,6 +49,121 @@
   summary: Disk Usage/Free Utility
   maintainers:
     - alpha@sigmasquadron.net
+  licenses:
+    - MIT
+- repo: chocolatey
+  binname: duf
+  visiblename: duf
+  version: 0.9.1
+  origversion: null
+  status: newest
+  summary: duf – Disk Usage Free Utility
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: duf
+  binname: duf
+  visiblename: duf
+  version: 0.9.1
+  origversion: 0.9.1-1
+  status: newest
+  summary: Disk Usage/Free Utility
+  licenses:
+    - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: duf
+  binname: duf
+  visiblename: duf
+  version: 0.9.1
+  origversion: 0.9.1-1
+  status: newest
+  summary: Disk Usage/Free Utility
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: duf
+  binname: duf
+  visiblename: duf
+  version: 0.9.1
+  origversion: 0.9.1-1
+  status: newest
+  summary: Disk Usage/Free Utility
+  licenses:
+    - MIT
+- repo: nix_stable_24_05
+  srcname: duf
+  visiblename: duf
+  version: 0.8.1
+  origversion: null
+  status: outdated
+  summary: Disk Usage/Free Utility
+  maintainers:
+    - figsoda@pm.me
+    - penguwin@penguwin.eu
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
+  srcname: duf
+  visiblename: duf
+  version: 0.8.1
+  origversion: null
+  status: outdated
+  summary: Disk Usage/Free Utility
+  maintainers:
+    - figsoda@pm.me
+    - penguwin@penguwin.eu
+  licenses:
+    - MIT
+- repo: altsisyphus
+  srcname: duf
+  binnames:
+    - duf
+    - duf-debuginfo
+  visiblename: duf
+  version: 0.9.1
+  origversion: 0.9.1-alt1
+  status: newest
+  summary: Disk Usage/Free Utility - a better 'df' alternative
+  maintainers:
+    - lav@altlinux.org
+  licenses:
+    - MIT and BSD
+  categories:
+    - File tools
+- repo: aosc
+  srcname: app-utils/duf
+  binname: duf
+  visiblename: duf
+  version: 0.9.1
+  origversion: 0.9.1-5
+  status: newest
+  summary: Utility to visualize disk usage and available space
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - utils
+- repo: arch
+  subrepo: extra
+  srcname: duf
+  binname: duf
+  visiblename: duf
+  version: 0.9.1
+  origversion: 0.9.1-1
+  status: newest
+  summary: Disk Usage/Free Utility
+  licenses:
+    - MIT
+- repo: aur
+  srcname: duf-git
+  binname: duf-git
+  visiblename: duf-git
+  version: r142.af580c4
+  origversion: r142.af580c4-1
+  status: rolling
+  summary: Disk Usage/Free Utility
+  maintainers:
+    - muesli@aur
   licenses:
     - MIT
 - repo: aerynos
@@ -149,83 +217,6 @@
     - MIT and BSD
   categories:
     - File tools
-- repo: altsisyphus
-  srcname: duf
-  binnames:
-    - duf
-    - duf-debuginfo
-  visiblename: duf
-  version: 0.9.1
-  origversion: 0.9.1-alt1
-  status: newest
-  summary: Disk Usage/Free Utility - a better 'df' alternative
-  maintainers:
-    - lav@altlinux.org
-  licenses:
-    - MIT and BSD
-  categories:
-    - File tools
-- repo: aosc
-  srcname: app-utils/duf
-  binname: duf
-  visiblename: duf
-  version: 0.9.1
-  origversion: 0.9.1-5
-  status: newest
-  summary: Utility to visualize disk usage and available space
-  maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - utils
-- repo: arch
-  subrepo: extra
-  srcname: duf
-  binname: duf
-  visiblename: duf
-  version: 0.9.1
-  origversion: 0.9.1-1
-  status: newest
-  summary: Disk Usage/Free Utility
-  licenses:
-    - MIT
-- repo: aur
-  srcname: duf-git
-  binname: duf-git
-  visiblename: duf-git
-  version: r142.af580c4
-  origversion: r142.af580c4-1
-  status: rolling
-  summary: Disk Usage/Free Utility
-  maintainers:
-    - muesli@aur
-  licenses:
-    - MIT
-- repo: artix
-  subrepo: galaxy
-  srcname: duf
-  binname: duf
-  visiblename: duf
-  version: 0.9.1
-  origversion: 0.9.1-1
-  status: newest
-  summary: Disk Usage/Free Utility
-  licenses:
-    - MIT
-- repo: baulk
-  srcname: duf
-  binname: duf
-  visiblename: duf
-  version: 0.9.1
-  origversion: null
-  status: newest
-  summary: Disk Usage/Free Utility (Linux, BSD, macOS & Windows)
-- repo: chocolatey
-  binname: duf
-  visiblename: duf
-  version: 0.9.1
-  origversion: null
-  status: newest
-  summary: duf – Disk Usage Free Utility
 - repo: debian_12
   subrepo: bookworm/main
   srcname: duf
@@ -235,6 +226,34 @@
   version: 0.8.1
   origversion: 0.8.1-1
   status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - vilmar@debian.org
+  categories:
+    - misc
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: duf
+  binnames:
+    - duf
+  visiblename: duf
+  version: 0.8.1
+  origversion: 0.8.1-2
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - vilmar@debian.org
+  categories:
+    - misc
+- repo: debian_14
+  subrepo: forky/main
+  srcname: duf
+  binnames:
+    - duf
+  visiblename: duf
+  version: 0.9.1
+  origversion: 0.9.1-1
+  status: newest
   maintainers:
     - team+pkg-go@tracker.debian.org
     - vilmar@debian.org
@@ -363,22 +382,6 @@
   categories:
     - Unspecified
 - repo: fedora_42
-  subrepo: release
-  srcname: duf
-  binnames:
-    - duf
-    - duf-debuginfo
-    - duf-debugsource
-  visiblename: duf
-  version: 0.8.1
-  origversion: 0.8.1-13.fc42
-  status: legacy
-  summary: Disk Usage/Free Utility - a better 'df' alternative
-  licenses:
-    - BSD-3-Clause AND MIT
-  categories:
-    - Unspecified
-- repo: fedora_42
   subrepo: updates
   srcname: duf
   binnames:
@@ -392,6 +395,22 @@
   summary: Disk Usage/Free Utility - a better 'df' alternative
   licenses:
     - Apache-2.0 AND BSD-3-Clause AND MIT
+  categories:
+    - Unspecified
+- repo: fedora_42
+  subrepo: release
+  srcname: duf
+  binnames:
+    - duf
+    - duf-debuginfo
+    - duf-debugsource
+  visiblename: duf
+  version: 0.8.1
+  origversion: 0.8.1-13.fc42
+  status: legacy
+  summary: Disk Usage/Free Utility - a better 'df' alternative
+  licenses:
+    - BSD-3-Clause AND MIT
   categories:
     - Unspecified
 - repo: fedora_43
@@ -533,20 +552,6 @@
     - Apache-2.0
   categories:
     - sys-fs
-- repo: solus
-  srcname: duf
-  binname: duf-dbginfo
-  visiblename: duf-dbginfo
-  version: 0.9.1
-  origversion: null
-  status: newest
-  summary: Debug symbols for duf
-  maintainers:
-    - harveydevel@gmail.com
-  licenses:
-    - MIT
-  categories:
-    - debug
 - repo: liguros_develop
   srcname: sys-fs/duf
   visiblename: sys-fs/duf
@@ -595,63 +600,6 @@
     - MIT
   categories:
     - sysutils
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: duf
-  binname: duf
-  visiblename: duf
-  version: 0.9.1
-  origversion: 0.9.1-1
-  status: newest
-  summary: Disk Usage/Free Utility
-  licenses:
-    - MIT
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: duf
-  binname: duf
-  visiblename: duf
-  version: 0.9.1
-  origversion: 0.9.1-1
-  status: newest
-  summary: Disk Usage/Free Utility
-  licenses:
-    - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: duf
-  binname: duf
-  visiblename: duf
-  version: 0.9.1
-  origversion: 0.9.1-1
-  status: newest
-  summary: Disk Usage/Free Utility
-  licenses:
-    - MIT
-- repo: nix_stable_24_05
-  srcname: duf
-  visiblename: duf
-  version: 0.8.1
-  origversion: null
-  status: outdated
-  summary: Disk Usage/Free Utility
-  maintainers:
-    - figsoda@pm.me
-    - penguwin@penguwin.eu
-  licenses:
-    - MIT
-- repo: nix_stable_24_11
-  srcname: duf
-  visiblename: duf
-  version: 0.8.1
-  origversion: null
-  status: outdated
-  summary: Disk Usage/Free Utility
-  maintainers:
-    - figsoda@pm.me
-    - penguwin@penguwin.eu
-  licenses:
-    - MIT
 - repo: nix_stable_26_05
   srcname: duf
   visiblename: duf
@@ -734,7 +682,7 @@
   licenses:
     - MIT
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: duf
   binnames:
     - duf
@@ -748,7 +696,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: duf
   binnames:
     - duf
@@ -877,6 +825,34 @@
     - boxjake.romero@protonmail.com
   categories:
     - system
+- repo: solus
+  srcname: duf
+  binname: duf
+  visiblename: duf
+  version: 0.9.1
+  origversion: null
+  status: newest
+  summary: duf Disk Usage/Free Utility is a better df alternative.
+  maintainers:
+    - harveydevel@gmail.com
+  licenses:
+    - MIT
+  categories:
+    - system.utils
+- repo: solus
+  srcname: duf
+  binname: duf-dbginfo
+  visiblename: duf-dbginfo
+  version: 0.9.1
+  origversion: null
+  status: newest
+  summary: Debug symbols for duf
+  maintainers:
+    - harveydevel@gmail.com
+  licenses:
+    - MIT
+  categories:
+    - debug
 - repo: stalix
   srcname: bin/duf
   binname: bin/duf
@@ -888,20 +864,30 @@
     - anton@samokhvalov.xyz
   categories:
     - bin
-- repo: ubuntu_22_04
-  subrepo: jammy/universe
-  srcname: duf
-  binnames:
-    - duf
-  visiblename: duf
-  version: 0.6.2
-  origversion: 0.6.2-1build1
-  status: outdated
+- repo: stalix_dev
+  srcname: bin/duf
+  binname: bin/duf
+  visiblename: bin/duf
+  version: 0.9.1
+  origversion: null
+  status: newest
   maintainers:
-    - team+pkg-go@tracker.debian.org
-    - francisco.ruviaro@riseup.net
+    - anton@samokhvalov.xyz
   categories:
-    - universe/misc
+    - bin
+- repo: t2
+  srcname: duf
+  visiblename: duf
+  version: 0.9.1
+  origversion: null
+  status: newest
+  summary: Disk usage utility
+  maintainers:
+    - notag@t2sde.org
+  licenses:
+    - MIT
+  categories:
+    - extra/tool
 - repo: ubuntu_22_04
   subrepo: jammy-updates/universe
   srcname: duf
@@ -913,6 +899,20 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
+    - francisco.ruviaro@riseup.net
+  categories:
+    - universe/misc
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
+  srcname: duf
+  binnames:
+    - duf
+  visiblename: duf
+  version: 0.6.2
+  origversion: 0.6.2-1build1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
     - francisco.ruviaro@riseup.net
   categories:
     - universe/misc
