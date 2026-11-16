@@ -39,27 +39,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.9.1` (2025-09-08)
-- **Last commit**: 2026-11-06
+- **Last commit**: 2026-11-15
 - **Assets in release**: 41
 
 ## Popularity
 
-- **Stars**: 15,385 · **Forks**: 476 · **Open issues**: 147 · **Contributors**: 37
+- **Stars**: 15,388 · **Forks**: 476 · **Open issues**: 147 · **Contributors**: 37
 
 ## Totals (cumulative)
 
-- **Releases**: 14 · **Merged PRs**: 133 · **Open PRs**: 31 · **Closed issues**: 92 · **Open issues**: 55 · **Commits**: 285
+- **Releases**: 14 · **Merged PRs**: 134 · **Open PRs**: 31 · **Closed issues**: 92 · **Open issues**: 55 · **Commits**: 287
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-16 | 0 | 0 | 3 | 0 | 1 | 3 |
-| last60d | 2026-09-16 | 0 | 0 | 6 | 0 | 2 | 3 |
-| 90d | 2026-08-17 | 0 | 0 | 7 | 1 | 2 | 3 |
-| last180d | 2026-05-19 | 0 | 0 | 8 | 3 | 2 | 3 |
-| 360d | 2025-11-20 | 0 | 2 | 17 | 4 | 6 | 4 |
-| last720d | 2024-11-25 | 2 | 25 | 22 | 6 | 13 | 54 |
+| 30d | 2026-10-17 | 0 | 1 | 3 | 0 | 1 | 5 |
+| last60d | 2026-09-17 | 0 | 1 | 6 | 0 | 2 | 5 |
+| 90d | 2026-08-18 | 0 | 1 | 7 | 1 | 2 | 5 |
+| last180d | 2026-05-20 | 0 | 1 | 8 | 3 | 2 | 5 |
+| 360d | 2025-11-21 | 0 | 3 | 16 | 4 | 6 | 6 |
+| last720d | 2024-11-26 | 2 | 26 | 22 | 6 | 13 | 56 |
 
 ## Release assets
 
@@ -119,7 +119,7 @@ Reported by **79** distros on [repology.org](https://repology.org/project/duf). 
 | Ubuntu 26.04 LTS | `0.9.1` | ✅ latest |
 | Ubuntu 24.04 LTS | `0.8.1` | ⚠️ outdated |
 | Arch | `0.9.1` | ✅ latest |
-| Homebrew | `0.9.1` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `0.9.1` | ✅ latest |
 | Nix unstable | `0.9.1` | ✅ latest |
 | Void | `0.9.1` | ✅ latest |
@@ -135,4 +135,4 @@ Install metadata for duf lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261115.yml` · 2026-11-15T07:17:03Z._
+_Snapshot: `data/card/261116.yml` · 2026-11-16T07:38:54Z._
