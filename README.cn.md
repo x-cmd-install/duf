@@ -44,7 +44,7 @@ x install duf
 
 ## 流行度
 
-- **Star**: 15,388 · **Fork**: 476 · **开放 issue**: 147 · **贡献者**: 37
+- **Star**: 15,387 · **Fork**: 476 · **开放 issue**: 147 · **贡献者**: 37
 
 ## 累计统计
 
@@ -54,12 +54,12 @@ x install duf
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 1 | 3 | 0 | 1 | 5 |
-| last60d | 2026-09-17 | 0 | 1 | 6 | 0 | 2 | 5 |
-| 90d | 2026-08-18 | 0 | 1 | 7 | 1 | 2 | 5 |
-| last180d | 2026-05-20 | 0 | 1 | 8 | 3 | 2 | 5 |
-| 360d | 2025-11-21 | 0 | 3 | 16 | 4 | 6 | 6 |
-| last720d | 2024-11-26 | 2 | 26 | 22 | 6 | 13 | 56 |
+| 30d | 2026-10-18 | 0 | 1 | 4 | 0 | 1 | 5 |
+| last60d | 2026-09-18 | 0 | 1 | 7 | 0 | 2 | 5 |
+| 90d | 2026-08-19 | 0 | 1 | 8 | 1 | 2 | 5 |
+| last180d | 2026-05-21 | 0 | 1 | 9 | 3 | 2 | 5 |
+| 360d | 2025-11-22 | 0 | 3 | 17 | 4 | 6 | 6 |
+| last720d | 2024-11-27 | 2 | 26 | 23 | 6 | 13 | 56 |
 
 ## Release 资产
 
@@ -107,25 +107,6 @@ x install duf
 | [duf_0.9.1_windows_i386.zip](https://github.com/muesli/duf/releases/download/v0.9.1/duf_0.9.1_windows_i386.zip) | 1.3 MiB | `native/win/x64` |
 | [duf_0.9.1_windows_x86_64.zip](https://github.com/muesli/duf/releases/download/v0.9.1/duf_0.9.1_windows_x86_64.zip) | 1.3 MiB | `native/win/x64` |
 
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/duf) 上共有 **79** 个发行版报告此项目。**47** 个 ✅ 已是最新上游版本，**27** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `0.9.1` | ✅ latest |
-| Debian 14 | `0.9.1` | ✅ latest |
-| Debian 13 | `0.8.1` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `0.9.1` | ✅ latest |
-| Ubuntu 24.04 LTS | `0.8.1` | ⚠️ outdated |
-| Arch | `0.9.1` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
-| Fedora rawhide | `0.9.1` | ✅ latest |
-| Nix unstable | `0.9.1` | ✅ latest |
-| Void | `0.9.1` | ✅ latest |
-| Alpine edge | `0.9.1` | ✅ latest |
-| openSUSE Tumbleweed | `0.9.1` | ✅ latest |
-
 ## 改进这些数据
 
 duf 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `duf` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -135,4 +116,4 @@ duf 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261116.yml` · 2026-11-16T07:38:55Z._
+_数据快照: `data/card/261117.yml` · 2026-11-17T10:31:29Z._
