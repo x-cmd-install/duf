@@ -27,9 +27,9 @@ Overall score: **4.1 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (1/10) — Found 4/22 approved changesets -- score normalized to 1
-- **Maintained** (4/10) — 4 commit(s) and 1 issue activity found in the last 90 days -- score normalized to 4
+- **Code-Review** (1/10) — Found 4/23 approved changesets -- score normalized to 1
 - **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
 
@@ -44,22 +44,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 15,387 · **Forks**: 476 · **Open issues**: 147 · **Contributors**: 37
+- **Stars**: 15,395 · **Forks**: 478 · **Open issues**: 147 · **Contributors**: 37
 
 ## Totals (cumulative)
 
-- **Releases**: 14 · **Merged PRs**: 134 · **Open PRs**: 31 · **Closed issues**: 92 · **Open issues**: 55 · **Commits**: 287
+- **Releases**: 14 · **Merged PRs**: 134 · **Open PRs**: 33 · **Closed issues**: 92 · **Open issues**: 55 · **Commits**: 287
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 0 | 1 | 4 | 0 | 1 | 5 |
-| last60d | 2026-09-18 | 0 | 1 | 7 | 0 | 2 | 5 |
-| 90d | 2026-08-19 | 0 | 1 | 8 | 1 | 2 | 5 |
-| last180d | 2026-05-21 | 0 | 1 | 9 | 3 | 2 | 5 |
-| 360d | 2025-11-22 | 0 | 3 | 17 | 4 | 6 | 6 |
-| last720d | 2024-11-27 | 2 | 26 | 23 | 6 | 13 | 56 |
+| 30d | 2026-10-20 | 0 | 1 | 6 | 0 | 1 | 5 |
+| last60d | 2026-09-20 | 0 | 1 | 9 | 0 | 2 | 5 |
+| 90d | 2026-08-21 | 0 | 1 | 9 | 1 | 2 | 5 |
+| last180d | 2026-05-23 | 0 | 1 | 11 | 3 | 2 | 5 |
+| 360d | 2025-11-24 | 0 | 3 | 19 | 4 | 6 | 6 |
+| last720d | 2024-11-29 | 2 | 26 | 25 | 6 | 13 | 56 |
 
 ## Release assets
 
@@ -107,6 +107,25 @@ Lowest-scoring checks:
 | [duf_0.9.1_windows_i386.zip](https://github.com/muesli/duf/releases/download/v0.9.1/duf_0.9.1_windows_i386.zip) | 1.3 MiB | `native/win/x64` |
 | [duf_0.9.1_windows_x86_64.zip](https://github.com/muesli/duf/releases/download/v0.9.1/duf_0.9.1_windows_x86_64.zip) | 1.3 MiB | `native/win/x64` |
 
+## Distribution status
+
+Reported by **80** distros on [repology.org](https://repology.org/project/duf). **48** are ✅ on the latest upstream release, **27** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `0.9.1` | ✅ latest |
+| Debian 14 | `0.9.1` | ✅ latest |
+| Debian 13 | `0.8.1` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `0.9.1` | ✅ latest |
+| Ubuntu 24.04 LTS | `0.8.1` | ⚠️ outdated |
+| Arch | `0.9.1` | ✅ latest |
+| Homebrew | `0.9.1` | ✅ latest |
+| Fedora rawhide | `0.9.1` | ✅ latest |
+| Nix unstable | `0.9.1` | ✅ latest |
+| Void | `0.9.1` | ✅ latest |
+| Alpine edge | `0.9.1` | ✅ latest |
+| openSUSE Tumbleweed | `0.9.1` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for duf lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `duf` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -116,4 +135,4 @@ Install metadata for duf lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261117.yml` · 2026-11-17T10:31:28Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T10:09:18Z._
