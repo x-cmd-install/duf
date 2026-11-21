@@ -1,5 +1,19 @@
-- repo: devuan_unstable
-  subrepo: unstable/main
+- repo: raspbian_stable
+  subrepo: main
+  srcname: duf
+  binnames:
+    - duf
+  visiblename: duf
+  version: 0.8.1
+  origversion: 0.8.1-2
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - vilmar@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
   srcname: duf
   binnames:
     - duf
@@ -12,17 +26,27 @@
     - vilmar@debian.org
   categories:
     - misc
-- repo: nix_stable_25_11
-  srcname: duf
+- repo: chocolatey
+  binname: duf
   visiblename: duf
   version: 0.9.1
   origversion: null
   status: newest
-  summary: Disk Usage/Free Utility
+  summary: duf – Disk Usage Free Utility
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: duf
+  binnames:
+    - duf
+  visiblename: duf
+  version: 0.8.1
+  origversion: 0.8.1-1
+  status: outdated
   maintainers:
-    - alpha@sigmasquadron.net
-  licenses:
-    - MIT
+    - team+pkg-go@tracker.debian.org
+    - vilmar@debian.org
+  categories:
+    - misc
 - repo: aerynos
   srcname: duf
   visiblename: duf
@@ -144,13 +168,6 @@
   origversion: null
   status: newest
   summary: Disk Usage/Free Utility (Linux, BSD, macOS & Windows)
-- repo: chocolatey
-  binname: duf
-  visiblename: duf
-  version: 0.9.1
-  origversion: null
-  status: newest
-  summary: duf – Disk Usage Free Utility
 - repo: debian_12
   subrepo: bookworm/main
   srcname: duf
@@ -216,6 +233,20 @@
   version: 0.8.1
   origversion: 0.8.1-2
   status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - vilmar@debian.org
+  categories:
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: duf
+  binnames:
+    - duf
+  visiblename: duf
+  version: 0.9.1
+  origversion: 0.9.1-1
+  status: newest
   maintainers:
     - team+pkg-go@tracker.debian.org
     - vilmar@debian.org
@@ -606,6 +637,17 @@
     - alpha@sigmasquadron.net
   licenses:
     - MIT
+- repo: nix_stable_25_11
+  srcname: duf
+  visiblename: duf
+  version: 0.9.1
+  origversion: null
+  status: newest
+  summary: Disk Usage/Free Utility
+  maintainers:
+    - alpha@sigmasquadron.net
+  licenses:
+    - MIT
 - repo: nix_stable_26_05
   srcname: duf
   visiblename: duf
@@ -738,48 +780,6 @@
     - vilmar@debian.org
   categories:
     - utils
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: duf
-  binnames:
-    - duf
-  visiblename: duf
-  version: 0.8.1
-  origversion: 0.8.1-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - vilmar@debian.org
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: duf
-  binnames:
-    - duf
-  visiblename: duf
-  version: 0.8.1
-  origversion: 0.8.1-2
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - vilmar@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: duf
-  binnames:
-    - duf
-  visiblename: duf
-  version: 0.9.1
-  origversion: 0.9.1-1
-  status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - vilmar@debian.org
-  categories:
-    - misc
 - repo: rosa_2019_1
   subrepo: contrib/release
   srcname: duf
